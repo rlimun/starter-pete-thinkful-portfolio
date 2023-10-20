@@ -1,7 +1,7 @@
 This is Pete Thinkful's portfolio.
 
-In this porfolio, you will find:
+In this portfolio, you will find:
 * About 
 * Portfolio
-** Background
+  * Background
 * Contact Information
