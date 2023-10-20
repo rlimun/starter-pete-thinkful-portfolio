@@ -1,6 +1,5 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
-
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -16,9 +15,86 @@ h3 {
   text-align: center;
 }
 
+/* About content */
+.about-content {
+  display: flex;
+  align-items: center;
+  width: 650px;
+}
+
+/* Text container in About section */
+.about-text-container {
+  text-align: center;
+
+}
+
+/* Paragraph and list items inside about-text-container */
+.about-text-container p, ul {
+  display: block;
+  text-align: left; /* Align all text to the left */
+  margin-left: 50px; /* Adds a 50px margin to the left of each item */
+  margin-top: 15px; /* Adds a 15px margin to the top of each item */
+  margin-bottom: 15px; /* Adds a 15px margin to the bottom of each item */
+}
+
+/* Each list item in About text container */
+.about-text-container li {
+  margin: 5px; /* Adds a 5px margin around each li item */
+}
+
+/* All content inside Portfolio */
+.portfolio-content {
+  display: flex; 
+  flex-wrap: nowrap; /* Make sure that each item does not wrap onto the next line */
+  flex-direction: row; /* Makes the flex container arrange each item in a row */
+  align-items: center; /* Aligns all items in the center */
+}
+
+/* All sections inside Portfolio content  */
+.portfolio-content section {
+  text-align: center; /* Center align the text */
+  margin: 10px;  /* Add spacing between the sections */
+  flex: 1; /* Distribute available space equally among sections */
+  max-width: 33%; /* Set the max width of each item in this section to 33% */
+  height: 500px; /* Set max height of each item in this section to 500px */
+}
+
+/* Header 3 of Portfolio content */
+.portfolio-content h3 {
+  text-align: center; /* Center align h3 */
+}
+
+/* All descriptions of portfolio content */
+.portfolio-content p {
+  font-size: 14px; /* Set description of portfolio content to 14px */
+}
+
+/* All images inside Portfolio content */
+.portfolio-content img {
+  max-width: 100%; /* Set all images in portfolio to have a max width of 100% */
+}
+
+/* Background content */
+.background-content {
+  margin-bottom: 75px; /* Set a bottom margin to the background content */
+}
+
 /* Header */
 header {
-  text-align: center;
+  text-align: center; /* Align text in the center */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Navigation at the top of the page */
+nav {
+  margin-left: 20px; /* Add a 20px margin to the left of nav */
+}
+
+/* All links in nav */
+nav a {
+  margin: 10px; /* Add a 10px margin around the links in nav */
 }
 
 /* Containers */
@@ -49,10 +125,6 @@ a:link {
 
 a:hover {
   color: #f77f00;
-}
-
-nav a {
-  padding-left: 20px;
 }
 
 /* Images */
